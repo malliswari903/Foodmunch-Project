@@ -1,0 +1,440 @@
+.navbar{
+    height: 100px;
+    width: 99vw;
+   display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#nav-options{
+ width: 45%;
+ height: 100%;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.img{
+    height: 75px;
+    margin-left: 20px;
+    
+}
+#nav-options>a{
+    color: rgb(32, 32, 0);
+    text-decoration: none;
+margin-right: 2px;
+}
+.hero{
+    height: 70vh;
+    width:99vw;
+    background-color: beige;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/026/173/966/non_2x/tempting-blueberry-ice-cream-on-a-rustic-wooden-table-generative-ai-photo.jpg');
+    background-size: cover;
+    
+    margin:auto;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ align-items: center;
+ filter:dull(10);
+}
+.hero > h1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 70px;
+
+}
+.hero > h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+}
+.hero button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#on{
+background-color:#d0b201 ;
+color: white;
+border:none;
+}
+#vn{
+    background-color: transparent;
+    color:whitesmoke;
+    border:2px solid #d0b201;
+    font-weight : b0ld;
+
+
+}
+#vn:hover{
+    background-color: white;
+    color:#d0b201  ;
+}
+.headings{
+    height: 90px;
+    width:90%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.headings>h2,p{
+    margin-left: 100px;
+}
+
+
+.wcu{
+   height: 60vh;
+width: 90vw;
+  background-color: #fafbfe ;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+  
+}
+
+.wcu>div{
+    height:55%;
+    width: 25%;
+   
+    border: 1px solid black;
+    border-radius: 20px;
+   
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 35px;
+}
+#wcu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wcu1>h3{
+    
+    font-family:'sans-serif';
+    font-size: 25px;
+    font-weight: 550;
+    color: #323f4b;
+}
+
+#wcu1>image{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+#wcu1>h5{
+   
+        font-family:'sans-serif';
+        font-size: 15px;
+        color: #5a7184;
+       
+}
+.img-ff{
+    height: 85px;
+    width: 85px;
+    margin-top: 1px;
+}
+.explore{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 90px;
+    width:90%;
+}
+.explore>h2{
+    margin-left:100px;
+}
+.dishes{
+height: 200vh;
+width: 55vw;
+display: grid;
+grid-template-columns: auto auto auto auto;
+align-items: center;
+margin-top: 20px;
+gap: 25px;
+margin-left: 50px;
+
+  
+}
+.dishes>a{
+    color: #d0b201;
+}
+@media screen and(min-width:0px)and(max-width:700px){
+   .dishes{
+    grid-template-columns: auto auto;
+   } 
+}
+.dish-items{
+    height: 40vh;
+    width:18vw;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     
+}
+.smoothies{
+    
+    height:200px;
+}
+.dish-items>image{
+    margin: auto;
+    margin-top:20%;
+    height: 20vh;
+    width: 30vw;
+    border-radius:30px;
+}
+.dish-items>h3,.dish-items>a{
+    margin-left:5%;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+
+.dish-items>a{
+    font-size: 15px;
+    color: #d0b201;
+}
+.fresh-container{
+    height: 40vh;
+    width: 99vw;
+    background-color: #fafbfe ;
+    margin: auto;
+}
+.fresh{
+    height: 40vh;
+    width:90vw;
+    
+   
+    margin-top: 50px;
+    display: flex;
+    margin-left: 80px;
+
+}
+#f1{
+    height:90% ;
+    width: 40%;
+   
+    margin: auto;
+    margin-left: 50px;
+
+}
+
+#f2{
+    height:80% ;
+    width: 75%;
+   
+    margin-right: 20px;
+    margin: auto;
+}
+#f2 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#f2 h4{
+   margin-right: 90px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: lighter;
+   font-size: 20px;
+}
+#on{
+background-color:#d0b201 ;
+color: white;
+border:none;
+margin-top: 20px;
+}
+.delivery-container{
+    height: 40vh;
+    width: 99vw;
+    margin: auto;
+    background-color: #fafbfe ;
+}
+.delivery{
+    height: 60vh;
+    width:100vw;
+
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-left: 50px;
+}
+#pay1{
+    height:80% ;
+    width: 75%;
+   
+ 
+    margin: auto;  
+}
+#pay2{
+    height:90% ;
+    width: 50%;
+   
+    margin: auto; 
+    
+}
+#pay2>img{
+    height: 60%;
+    width: 60%;
+    margin: auto;
+}
+    
+
+.img4{
+    height: 18%;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+    padding: 5px;
+
+    
+   
+}
+#pay1>h1{
+    margin: auto;
+
+}
+#pay1 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#on{
+    background-color:#d0b201 ;
+    color: white;
+    border:none;
+    }
+    #pay1>h4{
+    
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    }
+.customer{
+    height: 40vh;
+    width: 99vw;
+   background-color:  #faf7e9 ;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}
+#thanks{
+    height: 90%;
+    width: 45%;
+}
+#thanks h1{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#thanks h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#gifts{
+    height: 90%;
+    width: 45%;
+    
+}
+   
+
+#gifts>img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+#thanks button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#on{
+    background-color:#d0b201 ;
+    color: white;
+    border:none;
+    } 
+    .follow-container{
+        height: 20vh;
+        width: 99vw;
+        background-color:   #ffffff;
+  
+    }
+    .follow-container>h1{
+        margin-left: 400px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+
+    }
+    .follow{
+height: 10%;
+width: 50%;
+
+margin: auto;
+display: flex;
+padding: 30px;
+justify-content: space-evenly;
+margin-top: 30px;
+
+    }
+    .social-media {
+        
+        font-size: 2em; color: #faf7e9 ;
+    }
+    #on{
+        padding: 5px;
+        border-radius: 150px;
+    }
+    .footer-section{
+        
+        width: 90%;
+       
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+        margin-top: 20px;
+    }
+
+    .container>h5{
+       font-family: 'Times New Roman', Times, serif; 
+       font-weight: lighter;
+       color: #ffffff;
+       margin-left: 350px;
+
+
+ 
+    }
+    .container {
+        width: 800px;
+        height: 180px;
+        background-color: #333f4b;  
+    margin-top: 40px;
+    }
+    .container>img{
+        vertical-align: middle;
+        height: 90px;
+        width: 80px;
+        margin-left: 400px;
+    }
+    
